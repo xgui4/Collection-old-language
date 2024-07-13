@@ -1,0 +1,3 @@
+Public Sub Form_Load()
+    MsgBox "Hello, World!"
+End Sub

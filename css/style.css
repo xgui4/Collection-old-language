@@ -1,0 +1,10 @@
+body {
+    background-color : black;
+    color : rgb(18, 221, 18);
+}
+h2 {
+    text-decoration: underline;
+}
+code {
+    color : rgb(18, 221, 18);
+}
