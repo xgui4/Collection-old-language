@@ -1,0 +1,45 @@
+VERSION 5.00
+Begin VB.PropertyPage PropertyPage1 
+   Caption         =   "PropertyPage1"
+   ClientHeight    =   4170
+   ClientLeft      =   0
+   ClientTop       =   0
+   ClientWidth     =   5865
+   PaletteMode     =   0  'Halftone
+   ScaleHeight     =   4170
+   ScaleWidth      =   5865
+   Begin VB.PictureBox Picture1 
+      Height          =   3255
+      Left            =   240
+      ScaleHeight     =   3195
+      ScaleWidth      =   2475
+      TabIndex        =   0
+      Top             =   480
+      Width           =   2535
+   End
+   Begin VB.Label Title 
+      Appearance      =   0  'Flat
+      BackColor       =   &H8000000D&
+      Caption         =   "Visual Basic 6"
+      BeginProperty Font 
+         Name            =   "Segoe UI"
+         Size            =   8.25
+         Charset         =   0
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
+      ForeColor       =   &H80000005&
+      Height          =   195
+      Left            =   2880
+      TabIndex        =   1
+      Top             =   480
+      Width           =   2580
+   End
+End
+Attribute VB_Name = "PropertyPage1"
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = False
+Attribute VB_PredeclaredId = False
+Attribute VB_Exposed = False
